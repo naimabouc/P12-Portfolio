@@ -19,9 +19,7 @@ function Footer() {
         <div className="footer" style={{backgroundColor: theme.secondary}}>
             <p style={{color: theme.tertiary}}>
             Copyright © 2024 <br />
-                <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>
-                    ❤
-                </span>
+                
                  by {shortname(headerData.name)}
             </p>
         </div>
